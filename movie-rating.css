@@ -1,12 +1,20 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 header {
     text-align: center;
+    color: white;
 }
 
 main{
     width: 80%;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 0 auto;
     text-align: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 #container {
@@ -35,4 +43,20 @@ ul li{
     text-decoration: none;
     display: inline;
 }
+
+#rated {
+    display: inline-block;
+    width: 80%;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+#footer{ 
+    position: absolute;
+    bottom: 0;      
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;    
+}
+
 
